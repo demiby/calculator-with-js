@@ -1,0 +1,42 @@
+body{
+    background: darkgray;
+}
+*{
+    box-sizing:border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.wrap{
+    width: 400px;
+    margin: auto;
+    height: auto;
+    background: #6d72ca;
+    padding: 15px;
+}
+input[type=text]{
+    width: 85%;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+input[type=button]{
+    width: 102px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: "share tech mono";
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(58, 68, 103);
+}
+#clear{
+    background-color: #c2bede;
+    width: 50px;
+}
+#equal{
+    background-color: #9c9be1;
+}
+#side_btn{
+    width: 50px;
+}

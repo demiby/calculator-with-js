@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Share Tech Mono' rel='stylesheet'>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="wrap">
+        <form name="calc">
+            <input type="text" id="result" name="display" disabled>
+            <input id="clear" type="button" onclick="clearInput()" value="C">
+            <br><br>
+            <input type="button" onclick="appendNumber(1)" value="1">
+            <input type="button" onclick="appendNumber(2)" value="2">
+            <input type="button" onclick="appendNumber(3)" value="3">
+            <input id="side_btn" type="button" onclick="divive()" value="/">
+            <br><br>
+            <input type="button" onclick="appendNumber(4)" value="4">
+            <input type="button" onclick="appendNumber(5)" value="5">
+            <input type="button" onclick="appendNumber(6)" value="6">
+            <input id="side_btn" type="button" onclick="subtract()" value="-">
+            <br><br>
+            <input type="button" onclick="appendNumber(7)" value="7">
+            <input type="button" onclick="appendNumber(😎" value="8">
+            <input type="button" onclick="appendNumber(9)" value="9">
+            <input id="side_btn" type="button" onclick="add()" value="+">
+            <br><br>
+            <input type="button" onclick="appendNumber('.')" value=".">
+            <input type="button" onclick="appendNumber(0)" value="0">
+            <input id="equal" type="button" onclick="calculate()" value="=">
+            <input id="side_btn" type="button" onclick="multiply()" value="*">
+            <br><br>
+        </form>
+    </div>
+
+    <!--JS Link-->
+    <script src="main.js"></script>
+</body>
+</html>
+fonts.googleapis.com
